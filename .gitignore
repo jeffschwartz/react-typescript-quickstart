@@ -1,2 +1,6 @@
 node_modules
 typings
+src/client/app/*.d.ts
+src/client/app/*.js
+src/client/app/*.js.map
+src/client/public/bundle.*

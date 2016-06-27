@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && webpack && concurrently \"npm run tsc:w\"  \"npm run webpack:w\" \"npm run lite\" ",
+    "start": "tsc && npm run webpack && concurrently \"npm run tsc:w\"  \"npm run webpack:w\" \"npm run lite\" ",
     "postinstall": "typings install",
     "typings": "typings",
     "lite": "lite-server",
     "lint": "eslint src/client/app/index.jsx",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "webpack": "webpack",
-    "webpack:w": "webpack -w"
+    "webpack": "webpack -d",
+    "webpack:w": "webpack -dw"
   },
   "keywords": [],
   "author": "",
