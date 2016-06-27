@@ -10,7 +10,8 @@ var config = {
   output: {
     path: BUILD_DIR,
     filename: 'bundle.js'
-  }
+  },
+  devtool: "#inline-source-map"
   // Because typescript transpiles .tsx (equivalent to native .jsx) files to javascript
   // there is no need to use a loader for that.
   // ,
