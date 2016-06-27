@@ -5,7 +5,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var React = require("react"); // <== use for node module.exports =
-var react_dom_1 = require("react-dom"); // <== use for node export.property =
+var react_dom_1 = require("react-dom"); // <== use for node exports.[property name] =
 var App = (function (_super) {
     __extends(App, _super);
     function App() {

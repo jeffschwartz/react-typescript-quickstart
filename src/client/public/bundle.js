@@ -51,7 +51,7 @@
 	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 	};
 	var React = __webpack_require__(1); // <== use for node module.exports =
-	var react_dom_1 = __webpack_require__(38); // <== use for node export.property =
+	var react_dom_1 = __webpack_require__(38); // <== use for node exports.[property name] =
 	var App = (function (_super) {
 	    __extends(App, _super);
 	    function App() {
