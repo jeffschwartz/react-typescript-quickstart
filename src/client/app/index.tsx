@@ -1,5 +1,5 @@
 import React = require("react"); // <== use for node module.exports =
-import {render} from "react-dom"; // <== use for node exports.[property name] =
+import {render} from "react-dom"; // <== use for node exports[property name] =
 
 export class App extends React.Component<void, void> {
     render () {
