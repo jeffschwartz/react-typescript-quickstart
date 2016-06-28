@@ -6,6 +6,7 @@ Supports project development using React, NPM, TypeScript, ESLint and Webpack.
 
 * ***npm install*** to install project dependencies.
 * ***npm start*** to launch the application in the default browser. Behind the scenes this runs tsc, webpack and lite-server.
+* In addition to the above, please see package.json `scripts` property for additional commands that can be run using ***npm run [script name]***.
 
 ## Project Runtime Dependencies
 ```json
