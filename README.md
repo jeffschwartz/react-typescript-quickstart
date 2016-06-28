@@ -1,15 +1,11 @@
-# ReactJS Quickstart using NPM, TypeScript and Webpack
-Clone this repo for a ReactJS quickstart project which includes the following:
+# A React/TypeScript Quickstart
 
-1. TypeScript (also includes a tsconfig.json file)
-2. Webpack
-3. NPM
+Supports project development using React, NPM, TypeScript, ESLint and Webpack.
 
 ## CLI
-from the command line, run ***npm install***
 
-## Run
-from the command line, run ***npm start*** to launch the application in the default browser. Behind the scenes this runs tsc, webpack and lite-server.
+* ***npm install*** to install project dependencies.
+* ***npm start*** to launch the application in the default browser. Behind the scenes this runs tsc, webpack and lite-server.
 
 ## Project Runtime Dependencies
 ```json
@@ -37,3 +33,6 @@ from the command line, run ***npm start*** to launch the application in the defa
 
 ## Notes
 If you look inside `package.json` you will notice that there are dependencies for Babel. As installed this project doesn't use Babel (because it is using TypeScript there is no further need to transpile as the typescript compiler does that) but your application might need Babel if you use a JavaScript feature that isn't currently supported by TypeScript. You are free to remove the Babel dependencies if you don't need them as it will not break anything.
+
+## LICENSE
+MIT
