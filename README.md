@@ -4,9 +4,15 @@ Supports project development using React, NPM, TypeScript, ESLint and Webpack.
 
 ## CLI
 
-* ***npm install*** to install project dependencies.
+* ***npm install*** to install project dependencies including typings.
 * ***npm start*** to launch the application in the default browser. Behind the scenes this runs tsc, webpack and lite-server.
-* In addition to the above, please see package.json `scripts` property for additional commands that can be run using ***npm run [script name]***.
+* ***npm typings*** to install typings files.
+* ***npm lite*** to run lite server.
+* ***npm lint*** to run ESLint.
+* ***npm tsc*** to run the TypeScript compiler.
+* ***npm tsc:w*** to run the TypeScript compiler in watch mode.
+* ***npm webpack*** to run Webpack.
+* ***npm webpack:w*** to run Webpack in watch mode.
 
 ## Project Runtime Dependencies
 ```json
