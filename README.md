@@ -7,7 +7,7 @@ Supports project development using React, NPM, TypeScript, ESLint and Webpack.
 * ***npm install*** to install project dependencies including typings.
 * ***npm start*** to launch the application in the default browser. Behind the scenes this runs tsc, webpack and lite-server.
 * ***npm typings*** to install typings files.
-* ***npm lite*** to run lite server.
+* ***npm lite*** to run lite-server.
 * ***npm lint*** to run ESLint.
 * ***npm tsc*** to run the TypeScript compiler.
 * ***npm tsc:w*** to run the TypeScript compiler in watch mode.
@@ -39,7 +39,7 @@ Supports project development using React, NPM, TypeScript, ESLint and Webpack.
 ```
 
 ## Notes
-If you look inside `package.json` you will notice that there are dependencies for Babel. As installed this project doesn't use Babel (because it is using TypeScript there is no further need to transpile as the typescript compiler does that) but your application might need Babel if you use a JavaScript feature that isn't currently supported by TypeScript. You are free to remove the Babel dependencies if you don't need them as it will not break anything.
+If you look inside `package.json` and `webpack.config.js` you will notice that there are dependencies for Babel. As installed this project doesn't use Babel (because it is using TypeScript there is no further need to transpile as the typescript compiler does that) but your application might need Babel if you use a JavaScript feature that isn't currently supported by TypeScript. You are free to remove the Babel dependencies if you don't need them as it will not break anything.
 
 ## LICENSE
 MIT
