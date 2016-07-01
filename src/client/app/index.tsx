@@ -3,7 +3,7 @@ import {render} from "react-dom"; // <== use for node exports[property name] =
 
 export class App extends React.Component<void, void> {
     render () {
-        return <p>ReactJS Quickstart using NPM, TypeScript and Webpack</p>;
+        return <p>ReactJS Quickstart using NPM, TypeScript, TSLint and Webpack</p>;
     }
 }
 
